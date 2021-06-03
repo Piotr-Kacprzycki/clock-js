@@ -60,7 +60,7 @@ body {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   transform-origin: bottom;
-  transform: rotate(90deg);
+
 }
 
 .minutes {
@@ -75,7 +75,7 @@ body {
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   transform-origin: bottom;
-  transform: rotate(45deg);
+  
 }
 .seconds {
   position: absolute;
@@ -89,7 +89,7 @@ body {
   border-top-right-radius: 1px;
   border-top-left-radius: 1px;
   transform-origin: bottom;
-  transform: rotate(-45deg);
+  
 }
 /* End units clock */
 
