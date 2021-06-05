@@ -11,7 +11,7 @@ const appClock = () => {
   let minutes = time.getMinutes() * deg;
   let seconds = time.getSeconds() * deg;
 
-  appHours.style.transform = `rotation(${hours+(minutes/12)}deg)`;
+  appHours.style.transform = `rotate(${hours+(minutes/12)}deg)`;
   appMinutes.style.transform = `rotate(${minutes}deg)`
   appSeconds.style.transform = `rotate(${seconds}deg)`
 clockDate.textContent = `${appDate}`
